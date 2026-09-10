@@ -60,8 +60,8 @@ Encapsulation diterapkan dengan menyembunyikan atribut menggunakan private dan m
 
 ### 3. Menerapkan validasi input
 Program memiliki validasi untuk mencegah data yang tidak sesuai. Pada class LayananCRUD, program memeriksa apakah objek pemesanan tidak kosong, memastikan ID pesanan tidak duplikat, serta memastikan total harga tidak bernilai negatif saat proses update. Program juga memberikan pesan ketika data pemesanan tidak ditemukan atau pilihan menu yang dimasukkan tidak valid.
-<img width="375" height="155" alt="image" src="https://github.com/user-attachments/assets/bf52a35e-0daf-46c2-94c9-e68bf1879222" />
+<img width="480" alt="image" src="https://github.com/user-attachments/assets/bf52a35e-0daf-46c2-94c9-e68bf1879222" />
 
-<img width="480" height="180" alt="image" src="https://github.com/user-attachments/assets/f6e2160a-4652-479b-8ca5-54fb5dd58852" />
+<img width="480" alt="image" src="https://github.com/user-attachments/assets/f6e2160a-4652-479b-8ca5-54fb5dd58852" />
 
 
