@@ -32,5 +32,14 @@ Fitur ini berfungsi menghapus data transaksi pemesanan dari sistem jika terjadi 
 
 
 # Penjelasan Alur Program
-Pada gambar di bawah ini merupakan output ketika program dijalankan. Sistem akan menampilkan kalimat sambutan hangat kepada user, lalu memberikan beberapa pilihan untuk melihat isi program. Ketika user memasukkan angka '1' maka outputnya adalah menampilkan semua pesanan yang telah tercatat di dalam sistem, namun karena belum ada pesanan yang tercatat maka tampilannya adalah sebagai berikut.
-<img width="571" height="235" alt="image" src="https://github.com/user-attachments/assets/4f546ca7-0e50-4d10-9fc0-2bfdffc2578b" />
+### 1. Tampilan Menu Utama
+Pada gambar di bawah ini merupakan output ketika program dijalankan. Sistem akan menampilkan kalimat sambutan hangat kepada user, lalu memberikan beberapa pilihan untuk melihat isi program. Pilihan tersebut dapat dilihat pada gambar di bawah ini.
+<img width="585" height="188" alt="image" src="https://github.com/user-attachments/assets/8885cb6b-b431-4fc8-9f16-f4d79d21f8c0" />
+### 2. Proses Pilihan User
+- Ketika user memasukkan angka '1' maka outputnya adalah menampilkan semua pesanan yang telah tercatat di dalam sistem. Jika sistem belum menerima catatan pemesanan maka sistem hanya akan menampilkan teks informasi bahwa pemesanan belum ada.
+- Ketika user memasukkan angka '2' maka outputnya adalah program meminta data pelanggan dan data pemesanan jasa make up. Data pemesanan dan Pelanggan kemudian digunakan untuk membuat catatan informasi PemesananLayananMUA.
+- Ketika user memasukkan angka '3', maka outputnya program meminta ID pesanan yang ingin diperbarui. Program kemudian meminta status pembayaran dan total harga baru. Jika data ditemukan, status dan total harga diperbarui dan jika data tidak ditemukan atau harga yang dimasukkan tidak valid, program menampilkan pesan kesalahan.
+- Ketika user memasukkan angka '4', maka outputnya adalah program meminta ID pesanan yang ingin dihapus. Jika data ditemukan, pemesanan akan dihapus dan jika data tidak ditemukan, program menampilkan pesan bahwa pemesanan tidak ditemukan.
+- Ketika user memasukkan angka '5', maka outputnya program menampilkan pesan bahwa program telah selesai.
+### 3. Kembali ke Menu Utama
+Setelah proses tambah, tampil, update, atau hapus selesai, program kembali ke menu utama. Perulangan while membuat program tetap berjalan sehingga pengguna dapat melakukan proses lainnya.
